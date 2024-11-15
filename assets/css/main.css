@@ -1,0 +1,85 @@
+/*Debut header*/
+header{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(23, 171, 179);
+    height: 250px;
+}
+.photo{
+    margin-left: 90px;
+}
+.candidat{
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.titre{
+    margin-left: 25%;
+    margin-top: -20%;
+}
+h1{
+    color: white;
+    margin-left: 300px;
+    font-size: 40px;
+}
+h2{
+    color: white;
+    margin-left: 300px;
+    font-size: 30px;
+    line-height: 3px;
+}
+.info{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inf1{ 
+    width: 20px;
+    height: 20px;
+    margin-left: 650px   
+}  
+.info-right{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -110px;
+  
+} 
+.info-left{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -100px;
+}
+/*fin header*/
+
+/*debut article*/
+.profile{
+    margin-left: 350px;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+    
+}
+aside{
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: -1357px;
+    background-color: #e3e3e3;
+    padding: 5px;
+}
+.sec-right{
+    margin-left: 350px;
+    
+}
+.sec-left{
+    margin-left: -350px;
+}
+
