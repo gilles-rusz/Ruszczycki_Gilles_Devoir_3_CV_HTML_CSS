@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+header,main,footer{
+    width: 1160px;
+    margin: auto;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(23, 171, 179);
+    height: 250px;
+}
+.photo{
+    margin-left: 90px;
+}
+.candidat{
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.titre{
+    margin-left: 25%;
+    margin-top: -20%;
+}
+h1{
+    color: white;
+    margin-left: 300px;
+    font-size: 40px;
+}
+h2{
+    color: white;
+    margin-left: 300px;
+    font-size: 30px;
+    line-height: 3px;
+}
+.info{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inf1{ 
+    width: 20px;
+    height: 20px;
+    margin-left: 650px   
+}  
+.info-right{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -110px;
+  
+} 
+.info-left{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -100px;
+}
+
+
+
+
+
